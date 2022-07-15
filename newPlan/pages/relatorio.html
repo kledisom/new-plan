@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+		align-items: center;
+
+        background-color: #161616;
+        color: #fff;
+      }
+	  
+	  #rel {
+	   display: flex;
+	   justify-content: center;
+	   background-color: red;
+	   width: 600px;
+	  }
+	  
+	   #rel p {
+	   background-color: #000;
+	   width: 100px;
+	  }
+	  
+	  #col-1, #col-3, #col-5{
+	   background-color: #fff;
+	   width: 16.2%;
+	  }
+	  
+	  #col-2, #col-4, #col-6 {
+	   background-color: gold;
+	   width: 16.2%;
+	  }
+	  
+	  strong {
+	   display: flex;
+	   color: #000;
+	   text-align: center;
+	  }
+	  
+    </style>
+  </head>
+  <body>
+   
+<div id="rel">
+	<div id="col-1"><strong>Toalha 01 largura</strong></div>
+	<div id="col-2"><strong>Toalha 01 comprimento</strong></div>
+	<div id="col-3"><strong>Toalha 02 largura</strong></div>
+	<div id="col-4"><strong>Toalha 02 comprimento</strong></div>
+	<div id="col-5"><strong>Toalha 03 largura</strong></div>
+	<div id="col-6"><strong>Toalha 03 comprimento</strong></div>
+</div>
+    <script src="../scripts/relatorio.js"></script>
+  </body>
+</html>
